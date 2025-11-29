@@ -1,0 +1,60 @@
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 12px 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  border-left: 4px solid #2e7d32;
+}
+.card h3 {
+  color: #1b5e20;
+  margin-bottom: 8px;
+}
+.card p {
+  margin: 6px 0;
+  font-size: 15px;
+}
+.card button {
+  background: #2e7d32;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.card button:hover {
+  background: #1b5e20;
+}
+
+/* Input ya tafuta */
+#tafutaMifugo {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+/* Form ya agiza mzigo */
+.form-mifugo {
+  background: #f8fff8;
+  padding: 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.form-mifugo select, .form-mifugo button {
+  width: 100%;
+  padding: 12px;
+  margin: 6px 0;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.form-mifugo button {
+  background: #d32f2f;
+  color: white;
+}
+.form-mifugo button:hover {
+  background: #b71c1c;
+  }
